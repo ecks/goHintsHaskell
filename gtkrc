@@ -1,0 +1,9 @@
+style "style_01"
+{
+bg_pixmap[NORMAL] = "june0611.png"
+bg_pixmap[ACTIVE] = "june0611.png"
+bg_pixmap[PRELIGHT] = "june0611.png"
+}
+
+gtk-fallback-icon-theme = "gnome"
+widget "*mywidget" style "style_01"

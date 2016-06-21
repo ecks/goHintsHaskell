@@ -1,0 +1,5 @@
+1. For now I am using the resources file under /etc/gtk-2.0/gtkrc, however I would really like to change it. There is a function gdk_window_set_back_pixmap () which isn't implemented yet in the gtk2hs bindings.
+
+2. As of gtk2hs-0.9.13, the assertion
+"gtk2s_store_ref_node: assertion `iter->stamp == store->stamp' failed"
+"iter->stamp == 0			  store->stamp == -1807094531"

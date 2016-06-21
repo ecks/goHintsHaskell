@@ -1,0 +1,18 @@
+REQUIREMENTS:
+
+1. In order to change the view inside treeview, you only need to change the data structure, and not do anything with the displaying of the actual windows.
+
+2. ga melist lists the current games
+
+3. userlist 9p-BC lists the current players
+	EDIT: using "who" is better for parsing
+
+4. A good tutorial on tree view is at http://scentic.net/tutorial/treeview-tutorial.html
+
+5. You can view the past history of moves using "moves game#"
+
+6. handicaps are allowed only in games that have board size 19, 13, and 9
+
+7. set expandtab && retab fixes incorrect tabs in vim
+
+8. In order to use Either as a monad, you need to import Control.Monad.Error

@@ -1,0 +1,16 @@
+Name:			goHints
+Version:		0.0
+Description:		lets you integrate GTP-capable program with IGS server
+License:		GPL
+License-file:		LICENSE
+Author:			Hristo Asenov
+Maintainer:		hristo.s.asenov@gmail.com
+Synopsis:		The goal is for a GTP-compatible program to assist a user in playing a game of Go on the IGS server. The user can opt-in to view the moves that the program will make and then act accordingly.
+Category:		Game
+build-type:		Simple
+Data-files:		goHints.glade, black_stone.png, white_stone.png, june0611.png, gtkrc
+Extra-source-files:     GetParsed.hs, GoDefinitions.hs, Handicap.hs, Listen.hs, ViewGame.hs
+Build-depends:		base, gtk, glade, array, containers, bytestring, regex-base, regex-posix, parsec, network, mtl, stm
+
+Executable:		goHints
+Main-is:		goHints.hs
